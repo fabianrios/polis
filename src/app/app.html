@@ -27,12 +27,12 @@
           <h2>{{ source }}</h2>
           @for (article of filteredHitsBySource[source]; track article) {
             <div>
-              <h3>{{ article.title }}</h3>
+              <h3 [innerHTML]="article.title | highlight:searchTerm"></h3>
               <div class="chips-row">
                 <span class="chip chip-bias">bias: {{ article.bias }}</span>
                 <span class="chip chip-opinion">opinion: {{ article.opinion }}</span>
               </div>
-              <p>{{ article.body }}</p>
+              <p [innerHTML]="article.body | highlight:searchTerm"></p>
               <a [href]="getArticleUrl(article)" target="_blank">Mehr</a>
             </div>
           }

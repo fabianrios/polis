@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import Chart from 'chart.js/auto';
-import {FormsModule} from '@angular/forms';
+import { HighlightPipe } from './highlight.pipe';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  imports: [FormsModule],
+  imports: [FormsModule, HighlightPipe],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
