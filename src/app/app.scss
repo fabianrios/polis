@@ -1,0 +1,176 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem 1rem 2rem;
+  background: white;
+  border-bottom: 1px solid #4299E1;
+
+  .logo {
+    height: 48px;
+    width: auto;
+    margin-right: 1.5rem;
+  }
+
+  .search-input {
+    flex: 1;
+    max-width: 400px;
+    padding: 0.7rem 1.2rem;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    outline: none;
+    transition: border 0.2s;
+    &:focus {
+      border-color: #FF7A59;
+    }
+  }
+}
+
+.main-content {
+  background: #0A192F;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2rem;
+}
+
+.news-columns {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap; // Prevents wrapping to the next row
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.news-column {
+  background: rgb(32,	41, 58);
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  min-width: 260px;
+  max-width: 340px;
+  flex: 1 1 260px;
+
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #4299E1;
+    border-bottom: 1px solid #FF7A59;
+    padding-bottom: 0.5rem;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin: 0.7rem 0 0.2rem 0;
+    color: #E2E8F0;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 0.97rem;
+    color: #A0AEC0;
+    margin-bottom: 0.4rem;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+  }
+
+  a {
+    color: #FF7A59;
+    text-decoration: underline;
+    font-size: 0.95rem;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+  }
+}
+
+.werte-graph-container {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(66,153,225,0.08);
+  padding: 2rem 2.5rem 1.5rem 2.5rem;
+  margin-top: 1.5rem;
+  border: 2px solid #4299E1;
+
+  h2 {
+    margin-bottom: 1rem;
+    color: #4299E1;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+
+  #werteGraph {
+    display: block;
+    margin: 0 auto 1.2rem auto;
+    width: 100%;
+    background: #0A192F;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(66,153,225,0.06);
+  }
+
+  .graph-desc {
+    font-size: 0.98rem;
+    color: #A0AEC0;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+  }
+}
+
+.source-filter {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.5rem 2rem;
+  background: #0A192F;
+  border-bottom: 1px solid #4299E1;
+  justify-content: flex-end;
+
+  label {
+    font-size: 1rem;
+    color: #E2E8F0;
+    cursor: pointer;
+    user-select: none;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    input[type="checkbox"] {
+      margin-right: 0.5em;
+      accent-color: #4299E1;
+    }
+  }
+}
+
+.chips-row {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.18em 0.7em;
+  font-size: 0.85em;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  border-radius: 999px;
+  border: 1.5px solid;
+  background: #1E293B;
+  color: #E2E8F0;
+  letter-spacing: 0.01em;
+  user-select: none;
+}
+// Defining colors for better contrast and reusability
+$chip-bias-color: #1A3A5E; // Adjusted for better readability
+$chip-bias-background: #D8E9F8; // Lighter background with improved contrast
+
+.chip-bias {
+  border-color: $chip-bias-color;
+  background: $chip-bias-background;
+  color: $chip-bias-color;
+}
+
+.chip-opinion {
+  border-color: #FF7A59;
+  background: rgba(255,122,89,0.12);
+  color: #FF7A59;
+}

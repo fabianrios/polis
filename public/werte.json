@@ -1,0 +1,236 @@
+[
+  {
+    "title": "Zweites Frachtschiff nach Angriff der Huthi gesunken",
+    "source": "Tagesschau",
+    "bias": 0,
+    "opinion": -4
+  },
+  {
+    "title": "Huthi greifen wieder Frachter an",
+    "source": "Tagesschau",
+    "bias": 0,
+    "opinion": -4
+  },
+  {
+    "title": "Netanjahu und Trump sprechen wieder über Umsiedlung",
+    "source": "Tagesschau",
+    "bias": "+1",
+    "opinion": -2
+  },
+  {
+    "title": "Versorgungslage im Gaza-Streifen",
+    "source": "Tagesschau",
+    "bias": 0,
+    "opinion": -4
+  },
+  {
+    "title": "Netanjahu und sein Trump-Dilemma",
+    "source": "Tagesschau",
+    "bias": "+1",
+    "opinion": "+1"
+  },
+  {
+    "title": "Israel entsendet Delegation nach Katar",
+    "source": "Tagesschau",
+    "bias": 0,
+    "opinion": -3
+  },
+  {
+    "title": "\"Sie schreien, weinen, haben Essstörungen\"",
+    "source": "Tagesschau",
+    "bias": 0,
+    "opinion": -2
+  },
+  {
+    "title": "Hamas meldet \"positive Antwort\" an Gaza-Vermittler",
+    "source": "Tagesschau",
+    "bias": 0,
+    "opinion": -3
+  },
+  {
+    "title": "Hamas berät über Waffenruhe",
+    "source": "Tagesschau",
+    "bias": 0,
+    "opinion": -3
+  },
+  {
+    "title": "GHF dementiert Berichte über Tote an Verteilzentren",
+    "source": "Tagesschau",
+    "bias": 0,
+    "opinion": -3
+  },
+  {
+    "title": "Israel plant Auffanglager für 600 000 Gaza-BewohnerZwölf Tage im Juni",
+    "source": "Süddeutsche",
+    "bias": "+1",
+    "opinion": 0
+  },
+  {
+    "title": "Zwölf Tage im Juni",
+    "source": "Süddeutsche",
+    "bias": 0,
+    "opinion": -1
+  },
+  {
+    "title": "Er wacht über die Gefahr, die von den Atomanlagen dieser Welt ausgeht",
+    "source": "Süddeutsche",
+    "bias": 0,
+    "opinion": 0
+  },
+  {
+    "title": "Ist das die erste Stufe der Umsiedlung?",
+    "source": "Süddeutsche",
+    "bias": "+1",
+    "opinion": "+1"
+  },
+  {
+    "title": "Tauschgeschäft für die Waffen der Hisbollah",
+    "source": "Süddeutsche",
+    "bias": "+1",
+    "opinion": 0
+  },
+  {
+    "title": "Netanjahu gibt dem Affen Zucker",
+    "source": "Süddeutsche",
+    "bias": "+2",
+    "opinion": "+4"
+  },
+  {
+    "title": "Militärischer Zwischenfall führt zu Spannungen zwischen Berlin und Peking",
+    "source": "Süddeutsche",
+    "bias": 0,
+    "opinion": -3
+  },
+  {
+    "title": "Netanjahu will Friedensnobelpreis für Trump",
+    "source": "Süddeutsche",
+    "bias": "+1",
+    "opinion": "+1"
+  },
+  {
+    "title": "Ein explosives Wort im Weltkirchenrat",
+    "source": "Süddeutsche",
+    "bias": -1,
+    "opinion": "+2"
+  },
+  {
+    "title": "Im Land der Plastikgangster",
+    "source": "Süddeutsche",
+    "bias": -2,
+    "opinion": "+3"
+  },
+  {
+    "title": "Landesminister Strobl über Krisenszenarien",
+    "source": "spiegel",
+    "bias": "+1",
+    "opinion": "+1"
+  },
+  {
+    "title": "Völkerrechtler zum Israel-Iran-Konflikt",
+    "source": "spiegel",
+    "bias": 0,
+    "opinion": 0
+  },
+  {
+    "title": "Irans Präsident wirft Israel Anschlag auf sein Leben vor",
+    "source": "spiegel",
+    "bias": 0,
+    "opinion": -1
+  },
+  {
+    "title": "Völkerrechtler zweifeln Gründe für Israels Angriff auf Iran an",
+    "source": "spiegel",
+    "bias": -1,
+    "opinion": 0
+  },
+  {
+    "title": "Irans Oberster Führer tritt erstmals seit Kriegsbeginn öffentlich auf",
+    "source": "spiegel",
+    "bias": 0,
+    "opinion": -2
+  },
+  {
+    "title": "Krisen und Kriege machen Ihnen Angst? Dieser Psychologe weiß Rat",
+    "source": "spiegel",
+    "bias": 0,
+    "opinion": 0
+  },
+  {
+    "title": "Die ungebrochene Macht der Mullahs",
+    "source": "spiegel",
+    "bias": 0,
+    "opinion": "+1"
+  },
+  {
+    "title": "Atominspektoren der IAEA verlassen Iran",
+    "source": "spiegel",
+    "bias": 0,
+    "opinion": -2
+  },
+  {
+    "title": "Iran meldet 71 Tote nach israelischem Angriff auf Evin-Gefängnis",
+    "source": "spiegel",
+    "bias": -1,
+    "opinion": -1
+  },
+  {
+    "title": "Utopie eines Israel-Palästina",
+    "source": "taz",
+    "bias": -2,
+    "opinion": "+2"
+  },
+  {
+    "title": "Der Rausch des Antiisraelismus",
+    "source": "taz",
+    "bias": -1,
+    "opinion": "+3"
+  },
+  {
+    "title": "Verhandlungen für Waffenruhe",
+    "source": "taz",
+    "bias": 0,
+    "opinion": -2
+  },
+  {
+    "title": "„Mein Herz will es glauben“",
+    "source": "taz",
+    "bias": 0,
+    "opinion": "+2"
+  },
+  {
+    "title": "Friedensnobelpreis für Trump",
+    "source": "taz",
+    "bias": -1,
+    "opinion": "+3"
+  },
+  {
+    "title": "Rotes Meer in Flammen",
+    "source": "taz",
+    "bias": 0,
+    "opinion": -1
+  },
+  {
+    "title": "Netanjahu schlägt Trump für Friedensnobelpreis vor",
+    "source": "taz",
+    "bias": -1,
+    "opinion": "+1"
+  },
+  {
+    "title": "Hoffnung auf einen Waffenstillstand",
+    "source": "taz",
+    "bias": 0,
+    "opinion": 0
+  },
+  {
+    "title": "Netanjahu nennt Hamas-Wünsche für Waffenruhe inakzeptabel",
+    "source": "taz",
+    "bias": 0,
+    "opinion": -1
+  },
+  {
+    "title": "Sandsäcke für den Frieden",
+    "source": "taz",
+    "bias": -2,
+    "opinion": "+4"
+  }
+]
