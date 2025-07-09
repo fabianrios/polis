@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: polisfront
+    env: static
+    staticPublishPath: dist/polisfront/browser
+    buildCommand: |
+      npm install
+      npm run build -- --configuration production
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
