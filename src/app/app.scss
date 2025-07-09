@@ -140,6 +140,14 @@
   }
 }
 
+.toggle-button {
+  cursor: pointer;
+  position: relative;
+  margin-top: 5px;
+  height: 24px;
+  border-radius: 4px;
+}
+
 .chips-row {
   display: flex;
   gap: 0.5rem;

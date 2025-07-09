@@ -11,7 +11,8 @@ import {FormsModule} from '@angular/forms';
 })
 export class App implements OnInit {
   protected title = 'polisfront';
-  searchTerm = '';
+  protected searchTerm = '';
+  protected isContentVisible = true;
   hits: any[] = [];
   sources: string[] = [];
   filteredHitsBySource: { [key: string]: any[] } = {};

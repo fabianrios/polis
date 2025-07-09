@@ -14,7 +14,12 @@
   }
 </div>
 
+<button (click)="isContentVisible = !isContentVisible" class="toggle-button">
+  {{ isContentVisible ? 'Verbergen' : 'Anzeigen' }} Inhalt
+</button>
+
 <main class="main-content">
+@if (isContentVisible) {
   <div class="news-columns">
     @for (source of sources; track source) {
       @if (isSourceVisible(source)) {
@@ -35,7 +40,7 @@
       }
     }
   </div>
-
+}
   <div class="werte-graph-container">
     <h2>Artikel-Positionierung</h2>
     <canvas id="werteGraph"></canvas>
