@@ -118,6 +118,9 @@ export class App implements OnInit {
     const bluePoints = data.filter(d => d.y >= 0);
     const orangePoints = data.filter(d => d.y < 0);
 
+    // Get legend label color from CSS variable
+    const legendLabelColor = getComputedStyle(document.documentElement).getPropertyValue('--color-legend-label').trim() || '#4299e1';
+
     // Recreate the chart using the filtered data
     this.chartInstance = new Chart(ctx, {
       type: 'scatter',
@@ -143,7 +146,7 @@ export class App implements OnInit {
             display: true,
             position: 'top',
             labels: {
-              color: '#E2E8F0',
+              color: legendLabelColor,
               font: { family: "'Inter', Arial, Helvetica, sans-serif", size: 14 }
             }
           },
