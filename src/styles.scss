@@ -1,15 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
 
+// Light/Dark mode variables
+:root {
+  --color-bg: #f8fafc;
+  --color-bg-alt: #e2e8f0;
+  --color-header: #fff;
+  --color-border: #4299e1;
+  --color-primary: #4299e1;
+  --color-secondary: #ff7a59;
+  --color-text: #1e293b;
+  --color-text-secondary: #334155;
+  --color-card-bg: #fff;
+  --color-chip-bias-bg: #d8e9f8;
+  --color-chip-bias: #1a3a5e;
+  --color-chip-opinion-bg: rgba(255,122,89,0.12);
+  --color-chip-opinion: #ff7a59;
+  --color-highlight-bg: #fff59d;
+  --color-highlight: #1e293b;
+}
+
+.dark-mode {
+  --color-bg: #0a192f;
+  --color-bg-alt: #1e293b;
+  --color-header: #1e293b;
+  --color-border: #4299e1;
+  --color-primary: #4299e1;
+  --color-secondary: #ff7a59;
+  --color-text: #e2e8f0;
+  --color-text-secondary: #a0aec0;
+  --color-card-bg: #20293a;
+  --color-chip-bias-bg: #22334a;
+  --color-chip-bias: #d8e9f8;
+  --color-chip-opinion-bg: rgba(255,122,89,0.12);
+  --color-chip-opinion: #ff7a59;
+  --color-highlight-bg: #fff59d;
+  --color-highlight: #1e293b;
+}
+
 body, html {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  background: #0A192F;
-  color: #E2E8F0;
+  background: var(--color-bg);
+  color: var(--color-text);
   padding: 0;
   margin: 0;
+  transition: background 0.2s, color 0.2s;
 }
 
 mark {
-  background-color: rgba(255, 122, 89, 0.2);
-  color: #FF7A59;
+  background-color: var(--color-highlight-bg, #fff59d);
+  color: var(--color-highlight, #1e293b);
 }

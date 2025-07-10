@@ -20,6 +20,7 @@ export class App implements OnInit {
   filteredHitsBySource: { [key: string]: any[] } = {};
   private chartInstance: Chart | null = null;
   visibleSources = new Set<string>();
+  theme: 'light' | 'dark' = 'light';
 
   constructor(private http: HttpClient) {}
 
@@ -29,6 +30,7 @@ export class App implements OnInit {
     Chart.defaults.color = "#E2E8F0";
 
     // Do not fetch on init, wait for searchTerm input
+    this.applyTheme();
   }
 
   // Only fetches data, does not filter
@@ -184,5 +186,21 @@ export class App implements OnInit {
         }
       }
     });
+  }
+
+  toggleTheme() {
+    this.theme = this.theme === 'light' ? 'dark' : 'light';
+    this.applyTheme();
+  }
+
+  private applyTheme() {
+    const root = document.documentElement;
+    if (this.theme === 'dark') {
+      root.classList.add('dark-mode');
+      root.classList.remove('light-mode');
+    } else {
+      root.classList.add('light-mode');
+      root.classList.remove('dark-mode');
+    }
   }
 }

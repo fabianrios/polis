@@ -1,10 +1,12 @@
+
 .main-header {
   display: flex;
   align-items: center;
   gap: 1.5rem;
   padding: 1.5rem 2rem 1rem 2rem;
-  background: white;
-  border-bottom: 1px solid #4299E1;
+  background: var(--color-header);
+  border-bottom: 1px solid var(--color-border);
+  position: relative;
 
   .logo {
     height: 48px;
@@ -19,19 +21,39 @@
     font-size: 1.1rem;
     border-radius: 6px;
     outline: none;
-    transition: border 0.2s;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg-alt);
+    color: var(--color-text);
+    transition: border 0.2s, background 0.2s, color 0.2s;
     &:focus {
-      border-color: #FF7A59;
+      border-color: var(--color-secondary);
+    }
+  }
+
+  .theme-switcher {
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.7rem;
+    color: var(--color-primary);
+    padding: 0.3rem 0.7rem;
+    border-radius: 50%;
+    transition: background 0.2s;
+    outline: none;
+    &:hover, &:focus {
+      background: var(--color-bg-alt);
     }
   }
 }
 
 .main-content {
-  background: #0A192F;
+  background: var(--color-bg);
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
   padding: 2rem;
+  transition: background 0.2s;
 }
 
 .news-columns {
@@ -39,24 +61,26 @@
   gap: 2rem;
   justify-content: flex-start;
   align-items: flex-start;
-  flex-wrap: nowrap; // Prevents wrapping to the next row
+  flex-wrap: nowrap;
   overflow-x: auto;
   padding-bottom: 1rem;
 }
 
 .news-column {
-  background: rgb(32,	41, 58);
+  background: var(--color-card-bg);
   border-radius: 8px;
   padding: 1.2rem 1.5rem;
   min-width: 260px;
   max-width: 340px;
   flex: 1 1 260px;
+  box-shadow: 0 2px 8px rgba(66,153,225,0.08);
 
   h2 {
     font-size: 1.6rem;
+    text-transform: capitalize;
     margin-bottom: 1rem;
-    color: #4299E1;
-    border-bottom: 1px solid #FF7A59;
+    color: var(--color-primary);
+    border-bottom: 1px solid var(--color-secondary);
     padding-bottom: 0.5rem;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -65,20 +89,20 @@
   h3 {
     font-size: 1rem;
     margin: 0.7rem 0 0.2rem 0;
-    color: #E2E8F0;
+    color: var(--color-text);
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 600;
   }
 
   p {
     font-size: 0.97rem;
-    color: #A0AEC0;
+    color: var(--color-text-secondary);
     margin-bottom: 0.4rem;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
   }
 
   a {
-    color: #FF7A59;
+    color: var(--color-secondary);
     text-decoration: underline;
     font-size: 0.95rem;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -92,11 +116,12 @@
   box-shadow: 0 2px 8px rgba(66,153,225,0.08);
   padding: 2rem 2.5rem 1.5rem 2.5rem;
   margin-top: 1.5rem;
-  border: 2px solid #4299E1;
+  border: 2px solid var(--color-border);
+  background: var(--color-card-bg);
 
   h2 {
     margin-bottom: 1rem;
-    color: #4299E1;
+    color: var(--color-primary);
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 700;
   }
@@ -105,14 +130,14 @@
     display: block;
     margin: 0 auto 1.2rem auto;
     width: 100%;
-    background: #0A192F;
+    background: var(--color-bg);
     border-radius: 6px;
     box-shadow: 0 1px 4px rgba(66,153,225,0.06);
   }
 
   .graph-desc {
     font-size: 0.98rem;
-    color: #A0AEC0;
+    color: var(--color-text-secondary);
     margin-top: 0.5rem;
     text-align: center;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -123,19 +148,19 @@
   display: flex;
   gap: 1.5rem;
   padding: 0.5rem 2rem;
-  background: #0A192F;
-  border-bottom: 1px solid #4299E1;
+  background: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
   justify-content: flex-end;
 
   label {
     font-size: 1rem;
-    color: #E2E8F0;
+    color: var(--color-text);
     cursor: pointer;
     user-select: none;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     input[type="checkbox"] {
       margin-right: 0.5em;
-      accent-color: #4299E1;
+      accent-color: var(--color-primary);
     }
   }
 }
@@ -147,8 +172,8 @@
   justify-content: space-between;
   gap: 2rem;
   padding: 0.5rem 2rem;
-  background: #0A192F;
-  border-bottom: 1px solid #4299E1;
+  background: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .search-filter-input {
@@ -158,14 +183,14 @@
   font-size: 1.05rem;
   border-radius: 6px;
   outline: none;
-  border: 1px solid #4299E1;
-  background: #1E293B;
-  color: #E2E8F0;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  color: var(--color-text);
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   margin-right: 1.5rem;
-  transition: border 0.2s;
+  transition: border 0.2s, background 0.2s, color 0.2s;
   &:focus {
-    border-color: #FF7A59;
+    border-color: var(--color-secondary);
   }
 }
 
@@ -177,13 +202,14 @@
 
   label {
     font-size: 1rem;
-    color: #E2E8F0;
+    text-transform: capitalize;
+    color: var(--color-text);
     cursor: pointer;
     user-select: none;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     input[type="checkbox"] {
       margin-right: 0.5em;
-      accent-color: #4299E1;
+      accent-color: var(--color-primary);
     }
   }
 }
@@ -210,34 +236,37 @@
   font-weight: 600;
   border-radius: 999px;
   border: 1.5px solid;
-  background: #1E293B;
-  color: #E2E8F0;
+  background: var(--color-bg-alt);
+  color: var(--color-text);
   letter-spacing: 0.01em;
   user-select: none;
 }
 
-// Defining colors for better contrast and reusability
-$chip-bias-color: #1A3A5E; // Adjusted for better readability
-$chip-bias-background: #D8E9F8; // Lighter background with improved contrast
-
 .chip-bias {
-  border-color: $chip-bias-color;
-  background: $chip-bias-background;
-  color: $chip-bias-color;
+  border-color: var(--color-chip-bias);
+  background: var(--color-chip-bias-bg);
+  color: var(--color-chip-bias);
 }
 
 .chip-opinion {
-  border-color: #FF7A59;
-  background: rgba(255,122,89,0.12);
-  color: #FF7A59;
+  border-color: var(--color-chip-opinion);
+  background: var(--color-chip-opinion-bg);
+  color: var(--color-chip-opinion);
 }
 
 .search-term-title {
   text-align: center;
   font-size: 2.2rem;
   font-weight: 700;
-  color: white;
+  color: var(--color-primary);
   margin: 2rem 0 1.5rem 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   letter-spacing: 0.01em;
+}
+
+.highlight {
+  background-color: var(--color-highlight-bg);
+  color: var(--color-highlight);
+  padding: 0 2px;
+  border-radius: 2px;
 }
