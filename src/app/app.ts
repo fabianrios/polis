@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { SelectButtonModule } from 'primeng/selectbutton';
 import { PrimeNG } from 'primeng/config';
 
+
 @Component({
   selector: 'app-root',
   imports: [FormsModule, HighlightPipe, SelectButtonModule],
@@ -32,7 +33,6 @@ export class App implements OnInit {
     this.primeng.ripple.set(true);
     Chart.defaults.font.family = "'Inter', Arial, Helvetica, sans-serif";
     Chart.defaults.color = "#E2E8F0";
-
     // Do not fetch on init, wait for searchTerm input
     this.applyTheme();
   }
@@ -134,7 +134,6 @@ export class App implements OnInit {
 
     // Get legend label color from CSS variable
     const legendLabelColor = getComputedStyle(document.documentElement).getPropertyValue('--color-legend-label').trim() || '#4299e1';
-
     // Recreate the chart using the filtered data
     this.chartInstance = new Chart(ctx, {
       type: 'scatter',
@@ -200,8 +199,32 @@ export class App implements OnInit {
             },
             ticks: { color: '#A0AEC0', font: { family: "'Inter', Arial, Helvetica, sans-serif" } }
           }
+        },
+      },
+      plugins:[
+        {
+          id: 'quadrants',
+          beforeDraw(chart, args, options) {
+            const {ctx, chartArea: {left, top, right, bottom}, scales: {x, y}} = chart;
+            const midX = x.getPixelForValue(0);
+            const midY = y.getPixelForValue(0);
+            ctx.save();
+            ctx.fillStyle = 'rgba(90, 151, 219, 0.2)'; // oder eine andere Farbe pro Quadrant
+            ctx.fillRect(left, top, midX - left, midY - top); // top-left
+
+            ctx.fillStyle = 'rgba(90, 151, 219, 0.3)';
+            ctx.fillRect(midX, top, right - midX, midY - top); // top-right
+
+            ctx.fillStyle = 'rgba(238, 129, 98, 0.2)';
+            ctx.fillRect(midX, midY, right - midX, bottom - midY); // bottom-right
+
+            ctx.fillStyle = 'rgba(238, 129, 98, 0.3)';
+            ctx.fillRect(left, midY, midX - left, bottom - midY); // bottom-left
+
+            ctx.restore();
+          },
         }
-      }
+      ]
     });
   }
 
@@ -221,3 +244,4 @@ export class App implements OnInit {
     }
   }
 }
+
