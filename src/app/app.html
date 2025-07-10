@@ -1,18 +1,21 @@
 <header class="main-header">
-  <img src="/logopolis.jpg" alt="Logo" class="logo" />
+  <img
+    [src]="theme === 'dark' ? '/logopolis-white.png' : '/logopolis.jpg'"
+    alt="Logo"
+    class="logo"
+  />
   <input type="text" [(ngModel)]="searchTerm" placeholder="Suche..." (input)="onSearch()" class="search-input" />
   <button class="theme-switcher" (click)="toggleTheme()" [attr.aria-label]="theme === 'light' ? 'Dark mode' : 'Light mode'">
     @if (theme === 'light') {
-    <span>
-      <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
-        <circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="2"/>
-        <path d="M10 3V1M10 19v-2M3 10H1M19 10h-2M4.22 4.22l-1.42-1.42M17.2 17.2l-1.42-1.42M4.22 15.78l-1.42 1.42M17.2 2.8l-1.42 1.42" stroke="currentColor" stroke-width="2"/>
-      </svg>
-    </span>
+     <span>
+       <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+          <path d="M10 3a7 7 0 1 0 0 14V3z" fill="currentColor"/>
+        </svg>
+      </span>
     } @else if (theme === 'dark') {
       <span>
         <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
-          <path d="M15 10a5 5 0 0 1-5 5 5 5 0 0 1 0-10c.34 0 .67.03 1 .08A7 7 0 1 0 15 10z" fill="currentColor"/>
+          <circle cx="10" cy="10" r="7" fill="currentColor"/>
         </svg>
       </span>
     }
