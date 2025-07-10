@@ -140,6 +140,54 @@
   }
 }
 
+.source-filter-row {
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0.5rem 2rem;
+  background: #0A192F;
+  border-bottom: 1px solid #4299E1;
+}
+
+.search-filter-input {
+  flex: 0 0 220px;
+  max-width: 220px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.05rem;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #4299E1;
+  background: #1E293B;
+  color: #E2E8F0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  margin-right: 1.5rem;
+  transition: border 0.2s;
+  &:focus {
+    border-color: #FF7A59;
+  }
+}
+
+.source-filter-labels {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+
+  label {
+    font-size: 1rem;
+    color: #E2E8F0;
+    cursor: pointer;
+    user-select: none;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    input[type="checkbox"] {
+      margin-right: 0.5em;
+      accent-color: #4299E1;
+    }
+  }
+}
+
 .toggle-button {
   cursor: pointer;
   position: relative;
@@ -167,6 +215,7 @@
   letter-spacing: 0.01em;
   user-select: none;
 }
+
 // Defining colors for better contrast and reusability
 $chip-bias-color: #1A3A5E; // Adjusted for better readability
 $chip-bias-background: #D8E9F8; // Lighter background with improved contrast
@@ -183,3 +232,12 @@ $chip-bias-background: #D8E9F8; // Lighter background with improved contrast
   color: #FF7A59;
 }
 
+.search-term-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: white;
+  margin: 2rem 0 1.5rem 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.01em;
+}

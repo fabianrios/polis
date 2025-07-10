@@ -12,8 +12,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class App implements OnInit {
   protected title = 'polisfront';
-  protected searchTerm = '';
-  protected isContentVisible = true;
+  protected searchTerm = ''; // Only for demo/fetching
+  protected searchFilter = ''; // For filtering and highlighting
+  protected isContentVisible = false;
   hits: any[] = [];
   sources: string[] = [];
   filteredHitsBySource: { [key: string]: any[] } = {};
@@ -27,21 +28,37 @@ export class App implements OnInit {
     Chart.defaults.font.family = "'Inter', Arial, Helvetica, sans-serif";
     Chart.defaults.color = "#E2E8F0";
 
+    // Do not fetch on init, wait for searchTerm input
+  }
+
+  // Only fetches data, does not filter
+  public onSearch() {
+    if (this.searchTerm.trim().length < 4) {
+      this.hits = [];
+      this.sources = [];
+      this.filteredHitsBySource = {};
+      this.isContentVisible = false;
+      this.visibleSources.clear();
+      return;
+    }
+    this.isContentVisible = true;
     this.http.get<any>('/hits.json').subscribe(data => {
       this.hits = data.hits;
       this.sources = Array.from(new Set(this.hits.map(h => h.source)));
-      this.sources.forEach(s => this.visibleSources.add(s));
+      // Select all sources by default
+      this.visibleSources = new Set(this.sources);
       this.filterHits();
       setTimeout(() => this.renderGraph(), 0);
     });
   }
 
-  public onSearch() {
+  // Filters using searchFilter
+  public onFilter() {
     this.filterHits();
   }
 
   protected filterHits() {
-    const term = this.searchTerm.toLowerCase();
+    const term = this.searchFilter.toLowerCase();
     this.filteredHitsBySource = {};
     this.sources.forEach(source => {
       this.filteredHitsBySource[source] = this.hits.filter(

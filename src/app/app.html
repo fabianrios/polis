@@ -1,51 +1,54 @@
 <header class="main-header">
   <img src="/logopolis.jpg" alt="Logo" class="logo" />
-  <input type="text" [(ngModel)]="searchTerm" placeholder="Suche Nachrichten..." (input)="onSearch()" class="search-input" />
+  <input type="text" [(ngModel)]="searchTerm" placeholder="Suche..." (input)="onSearch()" class="search-input" />
 </header>
 
-<div class="source-filter">
-  @for (source of sources; track source) {
-    <label>
-      <input type="checkbox"
-             [checked]="isSourceVisible(source)"
-             (change)="toggleSource(source)" />
-      {{ source }}
-    </label>
-  }
-</div>
 
-<button (click)="isContentVisible = !isContentVisible" class="toggle-button">
-  {{ isContentVisible ? 'Verbergen' : 'Anzeigen' }} Inhalt
-</button>
-
-<main class="main-content">
-@if (isContentVisible) {
-  <div class="news-columns">
-    @for (source of sources; track source) {
-      @if (isSourceVisible(source)) {
-        <div class="news-column">
-          <h2>{{ source }}</h2>
-          @for (article of filteredHitsBySource[source]; track article) {
-            <div>
-              <h3 [innerHTML]="article.title | highlight:searchTerm"></h3>
-              <div class="chips-row">
-                <span class="chip chip-bias">bias: {{ article.bias }}</span>
-                <span class="chip chip-opinion">opinion: {{ article.opinion }}</span>
-              </div>
-              <p [innerHTML]="article.body | highlight:searchTerm"></p>
-              <a [href]="getArticleUrl(article)" target="_blank">Mehr</a>
-            </div>
-          }
-        </div>
-      }
+  <div class="source-filter-row">
+    @if (isContentVisible) {
+      <input type="text" [(ngModel)]="searchFilter" placeholder="Filter" (input)="onFilter()" class="search-filter-input" />
+      <div class="source-filter-labels">
+        @for (source of sources; track source) {
+          <label>
+            <input type="checkbox"
+                   [checked]="isSourceVisible(source)"
+                   (change)="toggleSource(source)" />
+            {{ source }}
+          </label>
+        }
+      </div>
     }
   </div>
+
+  <h1 class="search-term-title">{{ searchTerm }}</h1>
+@if (isContentVisible) {
+  <main class="main-content">
+    <div class="news-columns">
+      @for (source of sources; track source) {
+        @if (isSourceVisible(source)) {
+          <div class="news-column">
+            <h2>{{ source }}</h2>
+            @for (article of filteredHitsBySource[source]; track article) {
+              <div>
+                <h3 [innerHTML]="article.title | highlight:searchFilter"></h3>
+                <div class="chips-row">
+                  <span class="chip chip-bias">bias: {{ article.bias }}</span>
+                  <span class="chip chip-opinion">opinion: {{ article.opinion }}</span>
+                </div>
+                <p [innerHTML]="article.body | highlight:searchFilter"></p>
+                <a [href]="getArticleUrl(article)" target="_blank">Mehr</a>
+              </div>
+            }
+          </div>
+        }
+      }
+    </div>
+    <div class="werte-graph-container">
+      <h2>Artikel-Positionierung</h2>
+      <canvas id="werteGraph"></canvas>
+      <p class="graph-desc">
+        Jeder Artikel wird auf zwei Achsen verortet: der politischen Position (horizontal) und dem journalistischen Ansatz (vertikal). Dies schafft vier klare Quadranten, die eine nuancierte Bewertung ermöglichen und auf einen Blick zeigen, ob ein Bericht faktenbasiert oder meinungsbetont ist.
+      </p>
+    </div>
+  </main>
 }
-  <div class="werte-graph-container">
-    <h2>Artikel-Positionierung</h2>
-    <canvas id="werteGraph"></canvas>
-    <p class="graph-desc">
-      Jeder Artikel wird auf zwei Achsen verortet: der politischen Position (horizontal) und dem journalistischen Ansatz (vertikal). Dies schafft vier klare Quadranten, die eine nuancierte Bewertung ermöglichen und auf einen Blick zeigen, ob ein Bericht faktenbasiert oder meinungsbetont ist.
-    </p>
-  </div>
-</main>
