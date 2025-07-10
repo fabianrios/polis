@@ -195,22 +195,7 @@
 
 .source-filter-labels {
   display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
   align-items: center;
-
-  label {
-    font-size: 1rem;
-    text-transform: capitalize;
-    color: var(--color-text);
-    cursor: pointer;
-    user-select: none;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    input[type="checkbox"] {
-      margin-right: 0.5em;
-      accent-color: var(--color-primary);
-    }
-  }
 }
 
 .toggle-button {

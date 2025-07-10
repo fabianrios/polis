@@ -27,14 +27,14 @@
     @if (isContentVisible) {
       <input type="text" [(ngModel)]="searchFilter" placeholder="Filter" (input)="onFilter()" class="search-filter-input" />
       <div class="source-filter-labels">
-        @for (source of sources; track source) {
-          <label>
-            <input type="checkbox"
-                   [checked]="isSourceVisible(source)"
-                   (change)="toggleSource(source)" />
-            {{ source }}
-          </label>
-        }
+        <p-selectbutton
+          [options]="sourceOptions"
+          [(ngModel)]="selectedSources"
+          [multiple]="true"
+          optionLabel="name"
+          optionValue="value"
+          (onChange)="onSourcesChange()"
+        ></p-selectbutton>
       </div>
     }
   </div>

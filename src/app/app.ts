@@ -3,10 +3,12 @@ import { HttpClient } from '@angular/common/http';
 import Chart from 'chart.js/auto';
 import { HighlightPipe } from './highlight.pipe';
 import { FormsModule } from '@angular/forms';
+import { SelectButtonModule } from 'primeng/selectbutton';
+import { PrimeNG } from 'primeng/config';
 
 @Component({
   selector: 'app-root',
-  imports: [FormsModule, HighlightPipe],
+  imports: [FormsModule, HighlightPipe, SelectButtonModule],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
@@ -21,11 +23,13 @@ export class App implements OnInit {
   private chartInstance: Chart | null = null;
   visibleSources = new Set<string>();
   theme: 'light' | 'dark' = 'light';
+  sourceOptions: { name: string, value: string }[] = [];
+  selectedSources: string[] = [];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private primeng: PrimeNG) {}
 
   ngOnInit() {
-    // Set Chart.js global font family to Inter
+    this.primeng.ripple.set(true);
     Chart.defaults.font.family = "'Inter', Arial, Helvetica, sans-serif";
     Chart.defaults.color = "#E2E8F0";
 
@@ -41,14 +45,19 @@ export class App implements OnInit {
       this.filteredHitsBySource = {};
       this.isContentVisible = false;
       this.visibleSources.clear();
+      this.sourceOptions = [];
+      this.selectedSources = [];
       return;
     }
     this.isContentVisible = true;
     this.http.get<any>('/hits.json').subscribe(data => {
       this.hits = data.hits;
       this.sources = Array.from(new Set(this.hits.map(h => h.source)));
+      // Prepare options for selectbutton
+      this.sourceOptions = this.sources.map(s => ({ name: s, value: s }));
       // Select all sources by default
-      this.visibleSources = new Set(this.sources);
+      this.selectedSources = [...this.sources];
+      this.visibleSources = new Set(this.selectedSources);
       this.filterHits();
       setTimeout(() => this.renderGraph(), 0);
     });
@@ -75,6 +84,11 @@ export class App implements OnInit {
     this.renderGraph();
   }
 
+  public onSourcesChange() {
+    this.visibleSources = new Set(this.selectedSources);
+    this.renderGraph();
+  }
+
   protected toggleSource(source: string) {
     if (this.visibleSources.has(source)) {
       this.visibleSources.delete(source);
@@ -85,7 +99,7 @@ export class App implements OnInit {
   }
 
   protected isSourceVisible(source: string): boolean {
-    return this.visibleSources.has(source);
+    return this.selectedSources.includes(source);
   }
 
   getArticleUrl(article: any) {
