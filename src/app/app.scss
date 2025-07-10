@@ -262,3 +262,44 @@
 .dark-mode {
   --color-legend-label: #e2e8f0; // light for dark mode
 }
+
+.justification-tooltip {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  color: var(--color-secondary);
+
+  svg {
+    vertical-align: middle;
+    color: var(--color-secondary);
+  }
+
+  .tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    max-width: 240px;
+    background: var(--color-bg-alt);
+    color: var(--color-text);
+    text-align: left;
+    border-radius: 6px;
+    padding: 0.4em 0.8em;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1.8em;
+    font-size: 0.97em;
+    box-shadow: 0 2px 8px rgba(66,153,225,0.13);
+    transition: opacity 0.15s;
+    white-space: pre-line;
+    pointer-events: none;
+  }
+
+  &:hover .tooltip-text,
+  &:focus .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

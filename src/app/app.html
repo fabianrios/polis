@@ -49,10 +49,23 @@
             <h2>{{ source }}</h2>
             @for (article of filteredHitsBySource[source]; track article) {
               <div>
-                <h3 [innerHTML]="article.title | highlight:searchFilter"></h3>
+                <h3 [innerHTML]="article.title | highlight:searchFilter" style="display: inline;"></h3>
                 <div class="chips-row">
                   <span class="chip chip-bias">bias: {{ article.bias }}</span>
                   <span class="chip chip-opinion">opinion: {{ article.opinion }}</span>
+                  @if (article.justification) {
+                    <span
+                      class="justification-tooltip"
+                      tabindex="0"
+                      [attr.aria-label]="article.justification"
+                    >
+                    <svg width="16" height="16" viewBox="0 0 20 20" style="vertical-align: middle;">
+                      <circle cx="10" cy="10" r="9" fill="none" stroke="currentColor" stroke-width="2"/>
+                      <text x="10" y="15" text-anchor="middle" font-size="13" fill="currentColor" font-family="Arial" font-weight="bold">i</text>
+                    </svg>
+                    <span class="tooltip-text">{{ article.justification }}</span>
+                  </span>
+                  }
                 </div>
                 <p [innerHTML]="article.body | highlight:searchFilter"></p>
                 <a [href]="getArticleUrl(article)" target="_blank">Mehr</a>

@@ -3,90 +3,101 @@
       {
         "source": "Tagesschau",
         "title": "Zweites Frachtschiff nach Angriff der Huthi gesunken",
-        "body": "Nach Huthi-Angaben sind die beiden Frachter \"Magic Seas\" und \"Eternity\" gesunken. Die vom Iran unterstützte Miliz hatte die Schiffe angegriffen, Hintergrund ist der Gaza-Krieg. Wie viele Crew-Mitglieder sich retten konnten, ist unklar.\n                                mehr",
+        "body": "Nach Huthi-Angaben sind die beiden Frachter \"Magic Seas\" und \"Eternity\" gesunken. Die vom Iran unterstützte Miliz hatte die Schiffe angegriffen, Hintergrund ist der Gaza-Krieg. Wie viele Crew-Mitglieder sich retten konnten, ist unklar.",
         "url": "https://www.tagesschau.de/ausland/asien/huthi-frachtschiffe-rotes-meer-102.html",
         "bias": 0,
-        "opinion": -4
+        "opinion": -4,
+        "justification": "Neutraler Bericht über Kriegsfolgen mit zurückhaltender, faktenbasierter Sprache."
       },
       {
         "source": "Tagesschau",
         "title": "Huthi greifen wieder Frachter an",
-        "body": "Die Huthi-Milizen im Jemen greifen wieder Frachtschiffe im Roten Meer an. An Bord eines Frachters gab es offenbar Tote und Verletzte. Im Mai hatten die Huthi mit den USA eigentlich eine Waffenruhe vereinbart.\n                                mehr",
+        "body": "Die Huthi-Milizen im Jemen greifen wieder Frachtschiffe im Roten Meer an. An Bord eines Frachters gab es offenbar Tote und Verletzte. Im Mai hatten die Huthi mit den USA eigentlich eine Waffenruhe vereinbart.",
         "url": "https://www.tagesschau.de/ausland/asien/huthi-frachtschiffe-rotes-meer-100.html",
         "bias": 0,
-        "opinion": -4
+        "opinion": -4,
+        "justification": "Bericht über Gewaltvorfälle bleibt nüchtern, ohne politische Wertung."
       },
       {
         "source": "Tagesschau",
         "title": "Netanjahu und Trump sprechen wieder über Umsiedlung",
-        "body": "US-Präsident Trump und Israels Ministerpräsident Netanjahu haben im Weißen Haus erneut eine Umsiedlung von Palästinensern aus dem Gazastreifen aufgegriffen. Für eine Waffenruhe mit der Hamas gab sich Trump zuversichtlich. \n                                mehr",
+        "body": "US-Präsident Trump und Israels Ministerpräsident Netanjahu haben im Weißen Haus erneut eine Umsiedlung von Palästinensern aus dem Gazastreifen aufgegriffen. Für eine Waffenruhe mit der Hamas gab sich Trump zuversichtlich.",
         "url": "https://www.tagesschau.de/ausland/amerika/trump-netanjahu-treffen-100.html",
-        "bias": "+1",
-        "opinion": -2
+        "bias": 1,
+        "opinion": -2,
+        "justification": "Politisch brisantes Thema mit leicht proisraelischem Fokus, zurückhaltende Meinung."
       },
       {
         "source": "Tagesschau",
         "title": "Versorgungslage im Gaza-Streifen",
-        "body": "Wie Hilfs-Lieferungen für die Zivil-Bevölkerung im Gaza-Streifen wieder hochgefahren werden können, bespricht tagesthemen-Moderator Ingo Zamperoni mit dem Nothilfe-Koordinator der Vereinten Nationen.\n                                mehr",
+        "body": "Wie Hilfs-Lieferungen für die Zivil-Bevölkerung im Gaza-Streifen wieder hochgefahren werden können, bespricht tagesthemen-Moderator Ingo Zamperoni mit dem Nothilfe-Koordinator der Vereinten Nationen.",
         "url": "https://www.tagesschau.de/multimedia/video/video-1484310.html",
         "bias": 0,
-        "opinion": -4
+        "opinion": -4,
+        "justification": "Interview mit UN-Vertreter bleibt strikt faktenbasiert und sachlich."
       },
       {
         "source": "Tagesschau",
         "title": "Netanjahu und sein Trump-Dilemma",
-        "body": "Israels Kriegspolitik ist zunehmend von US-Präsident Trumps Interventionen geprägt. Der versucht die Lage im Nahen Osten in seinem Sinne neu zu gestalten - was Israels Premier Netanjahu vor Probleme stellt. Von Jörg Poppendieck.\n                                mehr",
+        "body": "Israels Kriegspolitik ist zunehmend von US-Präsident Trumps Interventionen geprägt. Der versucht die Lage im Nahen Osten in seinem Sinne neu zu gestalten – was Israels Premier Netanjahu vor Probleme stellt. Von Jörg Poppendieck.",
         "url": "https://www.tagesschau.de/ausland/asien/nahost-krieg-israel-gaza-trump-usa-100.html",
-        "bias": "+1",
-        "opinion": "+1"
+        "bias": 1,
+        "opinion": 1,
+        "justification": "Analyse mit moderatem Kommentarcharakter, leicht kritisch gegenüber beiden Akteuren."
       },
       {
         "source": "Tagesschau",
         "title": "Israel entsendet Delegation nach Katar",
-        "body": "Nach der Zustimmung zum Entwurf für eine Waffenruhe im Gazastreifen entsendet Israel eine Delegation nach Katar. Die Hamas hat für die Verhandlungen jedoch noch Klärungsbedarf. Premier Netanjahu nennt das \"inakzeptabel\".\n                                mehr",
+        "body": "Nach der Zustimmung zum Entwurf für eine Waffenruhe im Gazastreifen entsendet Israel eine Delegation nach Katar. Die Hamas hat für die Verhandlungen jedoch noch Klärungsbedarf. Premier Netanjahu nennt das \"inakzeptabel\".",
         "url": "https://www.tagesschau.de/ausland/asien/israel-bestaetigt-teilnahme-an-katar-gespraechen-100.html",
         "bias": 0,
-        "opinion": -3
+        "opinion": -3,
+        "justification": "Bericht über diplomatische Verhandlungen mit neutralem Tonfall."
       },
       {
         "source": "Tagesschau",
         "title": "\"Sie schreien, weinen, haben Essstörungen\"",
-        "body": "Irans Angriffe wirken nach: Autistische Kinder haben es besonders schwer, mit den Erfahrungen fertig zu werden. Eine Einrichtung kümmert sich um die Kleinen. Aber nicht nur sie brauchen Hilfe. Von Bettina Meier.\n                                mehr",
+        "body": "Irans Angriffe wirken nach: Autistische Kinder haben es besonders schwer, mit den Erfahrungen fertig zu werden. Eine Einrichtung kümmert sich um die Kleinen. Aber nicht nur sie brauchen Hilfe. Von Bettina Meier.",
         "url": "https://www.tagesschau.de/ausland/europa/israel-nach-dem-irankrieg-100.html",
         "bias": 0,
-        "opinion": -2
+        "opinion": -2,
+        "justification": "Einfühlsamer Bericht über zivile Kriegsfolgen, emotional, aber faktenorientiert."
       },
       {
         "source": "Tagesschau",
         "title": "Hamas meldet \"positive Antwort\" an Gaza-Vermittler",
-        "body": "Israel hat schon zugestimmt - jetzt will laut eigenen Angaben auch die Hamas einen neuen Entwurf für eine Gazastreifen-Waffenruhe grundsätzlich annehmen. Doch wichtige Details sind offenbar weiter offen.\n                                mehr",
+        "body": "Israel hat schon zugestimmt – jetzt will laut eigenen Angaben auch die Hamas einen neuen Entwurf für eine Gazastreifen-Waffenruhe grundsätzlich annehmen. Doch wichtige Details sind offenbar weiter offen.",
         "url": "https://www.tagesschau.de/ausland/asien/israel-gaza-hamas-reagiert-positiv-auf-vorschlag-waffenruhe-100.html",
         "bias": 0,
-        "opinion": -3
+        "opinion": -3,
+        "justification": "Nüchterne diplomatische Entwicklung ohne wertende Sprache."
       },
       {
         "source": "Tagesschau",
         "title": "Hamas berät über Waffenruhe",
-        "body": "Im Krieg zwischen Israel und der Hamas liegt der Vorschlag für eine neue 60-tägige Feuerpause auf dem Tisch. Die Hamas stimmt sich noch mit ihren Verbündeten ab. Sie will, dass die Waffenruhe zu einem dauerhaften Ende der Kämpfe führt.\n                                mehr",
+        "body": "Im Krieg zwischen Israel und der Hamas liegt der Vorschlag für eine neue 60-tägige Feuerpause auf dem Tisch. Die Hamas stimmt sich noch mit ihren Verbündeten ab. Sie will, dass die Waffenruhe zu einem dauerhaften Ende der Kämpfe führt.",
         "url": "https://www.tagesschau.de/ausland/asien/hamas-waffenruhe-palaestinenser-usa-aegypten-katar-100.html",
         "bias": 0,
-        "opinion": -3
+        "opinion": -3,
+        "justification": "Faktenbasierter Überblick über Verhandlungsstand, keine Tonalität erkennbar."
       },
       {
         "source": "Tagesschau",
         "title": "GHF dementiert Berichte über Tote an Verteilzentren",
-        "body": "Die von Israel und den USA unterstütze Hilfsorganisation GHF hat jüngste Berichte über Tote an Verteilstellen im Gazastreifen zurückgewiesen. Entsprechende Angaben der Nachrichtenagentur AP nannte sie \"kategorisch falsch\".\n                                mehr",
+        "body": "Die von Israel und den USA unterstütze Hilfsorganisation GHF hat jüngste Berichte über Tote an Verteilstellen im Gazastreifen zurückgewiesen. Entsprechende Angaben der Nachrichtenagentur AP nannte sie \"kategorisch falsch\".",
         "url": "https://www.tagesschau.de/ausland/asien/gaza-angriffe-112.html",
         "bias": 0,
-        "opinion": -3
+        "opinion": -3,
+        "justification": "Bericht über Dementi bleibt sachlich und ohne Kommentar oder Einordnung."
       },
       {
         "source": "Süddeutsche",
         "title": "Israel plant Auffanglager für 600 000 Gaza-BewohnerZwölf Tage im Juni",
-        "body": "Verteidigungsminister Katz spricht von einer „Humanitären Stadt“. Aber wer einmal eingelassen wird, soll die Einrichtung nicht mehr verlassen dürfen.Ein kurzer Krieg hält die Welt in Atem: Israel und die USA greifen Iran an, um das Regime am Bau einer Atombombe zu hindern. Die Eskalation ist gestoppt – aber auch das Kernwaffenprogramm? Eine Rekonstruktion.",
+        "body": "Verteidigungsminister Katz spricht von einer „Humanitären Stadt“. Aber wer einmal eingelassen wird, soll die Einrichtung nicht mehr verlassen dürfen. Ein kurzer Krieg hält die Welt in Atem: Israel und die USA greifen Iran an, um das Regime am Bau einer Atombombe zu hindern. Die Eskalation ist gestoppt – aber auch das Kernwaffenprogramm? Eine Rekonstruktion.",
         "url": "https://www.sueddeutsche.de/politik/nahost-liveblog-news-lager-rafah-israel-gaza-li.3280192",
-        "bias": "+1",
-        "opinion": 0
+        "bias": 1,
+        "opinion": 0,
+        "justification": "Kritischer Ton zu Israels Lagerplänen, aber sachlich in Darstellung und Sprache."
       },
       {
         "source": "Süddeutsche",
@@ -94,39 +105,44 @@
         "body": "Ein kurzer Krieg hält die Welt in Atem: Israel und die USA greifen Iran an, um das Regime am Bau einer Atombombe zu hindern. Die Eskalation ist gestoppt – aber auch das Kernwaffenprogramm? Eine Rekonstruktion.",
         "url": "https://www.sueddeutsche.de/projekte/artikel/politik/chronologie-iran-israel-usa-krieg-waffenruhe-e794435/",
         "bias": 0,
-        "opinion": -1
+        "opinion": -1,
+        "justification": "Chronologische Darstellung ohne Wertung, Hintergrund-Analyse mit Fokus auf Fakten."
       },
       {
         "source": "Süddeutsche",
         "title": "Er wacht über die Gefahr, die von den Atomanlagen dieser Welt ausgeht",
-        "body": "Rafael Grossi hat als IAEA-Chef einen technischen Job. Doch der Argentinier nimmt immer öfter die Rolle eines politischen Vermittlers ein.  Er will sich damit für ein höheres Amt empfehlen.",
+        "body": "Rafael Grossi hat als IAEA-Chef einen technischen Job. Doch der Argentinier nimmt immer öfter die Rolle eines politischen Vermittlers ein. Er will sich damit für ein höheres Amt empfehlen.",
         "url": "https://www.sueddeutsche.de/politik/rafael-grossi-chef-iaea-wien-li.3281764",
         "bias": 0,
-        "opinion": 0
+        "opinion": 0,
+        "justification": "Unaufgeregtes Porträt über eine politische Figur mit neutraler Darstellung."
       },
       {
         "source": "Süddeutsche",
         "title": "Ist das die erste Stufe der Umsiedlung?",
         "body": "Israels Regierung erwägt, im Süden des Gazastreifens ein Lager für 600 000 Menschen zu errichten. Premier Netanjahu sagt, er suche auch nach Ländern, die bereit seien, die Palästinenser aufzunehmen.",
         "url": "https://www.sueddeutsche.de/politik/israel-gaza-lager-rafah-umsiedlung-li.3281381",
-        "bias": "+1",
-        "opinion": "+1"
+        "bias": 1,
+        "opinion": 1,
+        "justification": "Kritisch hinterfragt, ob Pläne zur Umsiedlung führen – leichte Bewertung erkennbar."
       },
       {
         "source": "Süddeutsche",
         "title": "Tauschgeschäft für die Waffen der Hisbollah",
         "body": "Die libanesische Miliz soll sich entwaffnen. Will aber nicht. Nun versucht es der Trump-Freund und Sondergesandte Tom Barrack  mit einem Trick.",
         "url": "https://www.sueddeutsche.de/politik/libanon-hisbollah-israel-waffen-usa-tauschgeschaeft-li.3281384",
-        "bias": "+1",
-        "opinion": 0
+        "bias": 1,
+        "opinion": 0,
+        "justification": "Etwas zugespitzte Wortwahl, aber insgesamt neutraler politischer Überblick."
       },
       {
         "source": "Süddeutsche",
         "title": "Netanjahu gibt dem Affen Zucker",
         "body": "Israels Premier macht sich Trumps Idee einer „Riviera des Nahen Ostens“ zu eigen, um eine Politik der Vertreibung durchzusetzen. Die neusten Pläne seiner Regierung sind ungeheuerlich.",
         "url": "https://www.sueddeutsche.de/meinung/gazastreifen-netanjahu-trump-transitlager-kommentar-li.3281949",
-        "bias": "+2",
-        "opinion": "+4"
+        "bias": 2,
+        "opinion": 4,
+        "justification": "Deutlicher Kommentar mit polemischer Sprache und klarer politischer Einordnung."
       },
       {
         "source": "Süddeutsche",
@@ -134,15 +150,17 @@
         "body": "Ein Schiff der chinesischen Marine soll im Roten Meer einen Laser auf ein Flugzeug der Bundeswehr gerichtet haben. Das Auswärtige Amt bestellt deshalb Chinas Botschafter ein. Zuvor hatte schon das Kanzleramt scharf protestiert – und China zu einer generellen Verhaltensänderung aufgefordert.",
         "url": "https://www.sueddeutsche.de/politik/deutschland-bundeswehr-china-rotes-meer-militaer-zwischenfall-spannungen-li.3281471",
         "bias": 0,
-        "opinion": -3
+        "opinion": -3,
+        "justification": "Bericht über diplomatischen Vorfall bleibt sachlich und zurückhaltend."
       },
       {
         "source": "Süddeutsche",
         "title": "Netanjahu will Friedensnobelpreis für Trump",
         "body": "Der israelische Premier ist zu Gast im Weißen Haus, es geht um die Zukunft des Nahen Ostens. Trumps Anhänger interessieren sich allerdings mehr für ein neues Epstein-Video, welches das US-Justizministerium am selben Tag veröffentlicht.",
         "url": "https://www.sueddeutsche.de/politik/usa-trump-netanjahu-friedensgespraeche-iran-gaza-epstein-li.3281100",
-        "bias": "+1",
-        "opinion": "+1"
+        "bias": 1,
+        "opinion": 1,
+        "justification": "Ironisch gefärbt, leichter Spott über politische Inszenierung spürbar."
       },
       {
         "source": "Süddeutsche",
@@ -150,7 +168,8 @@
         "body": "Man müsse „die Realität der Apartheid beim Namen nennen“, erklärt der Ökumenische Rat der Kirchen in einer Israel-Resolution. Die EKD geht auf Distanz – und der Chef der Rabbinerkonferenz wirft der Kirche „moralisches Versagen“ vor.",
         "url": "https://www.sueddeutsche.de/politik/weltkrichenrat-israel-kontroversen-apartheid-vorwurf-li.3281388",
         "bias": -1,
-        "opinion": "+2"
+        "opinion": 2,
+        "justification": "Thematisiert kontroverse Begriffe; der Bericht zitiert, bewertet aber auch leicht."
       },
       {
         "source": "Süddeutsche",
@@ -158,95 +177,98 @@
         "body": "Dubai, diese flirrende Hightech-Fata-Morgana, verheißungsvoll, verführerisch, offen für jeden, und vor allem: für jedermanns Geld. Hier wird gerade eine neue, unmoralische Weltordnung ausgetestet. Willkommen auf der Flaniermeile der autokratischen Welt.",
         "url": "https://www.sueddeutsche.de/projekte/artikel/politik/dubai-kryptoqueen-emirate-gold-geldwaesche-autokratie-e227706/",
         "bias": 0,
-        "opinion": -2
+        "opinion": -2,
+        "justification": "Stark beschreibender Essay, kritisch, aber auf realen Beobachtungen basierend."
       },
       {
         "source": "spiegel",
-        "title": "Landesminister Strobl über Krisenszenarien\n\n\n\n\n\n    \n        \n        \n        \n    \n\n\n»Knäckebrot, Büchsenwurst und haltbare Kekse«",
-        "body": "Landesminister Strobl über Krisenszenarien\n\nAuf einen Verteidigungsfall sind die Bundesländer nicht genügend vorbereitet, mahnt Baden-Württembergs CDU-Innenminister Strobl. Er verlangt Zivilschutzübungen an Schulen und verrät, was er selbst für Notfälle bereithält.\n\nEin Interview von Christine Keck",
+        "title": "Landesminister Strobl über Krisenszenarien",
+        "body": "Auf einen Verteidigungsfall sind die Bundesländer nicht genügend vorbereitet, mahnt Baden-Württembergs CDU-Innenminister Strobl. Er verlangt Zivilschutzübungen an Schulen und verrät, was er selbst für Notfälle bereithält.",
         "url": "https://www.spiegel.de/politik/deutschland/baden-wuerttembergs-innenminister-strobl-ueber-krisenzeiten-fuer-notlagen-haben-wir-im-keller-knaeckebrot-buechsenwurst-und-haltbare-kekse-a-a051258a-5cb9-4b9c-bdab-35a59d7a1f45",
-        "bias": "+1",
-        "opinion": "+1"
+        "bias": 1,
+        "opinion": 1,
+        "justification": "Konservativ-pragmatischer Tonfall, Meinung sichtbar in der Forderung nach Zivilschutz."
       },
       {
         "source": "spiegel",
-        "title": "Völkerrechtler zum Israel-Iran-Konflikt\n\n\n\n\n\n\n»Zynische Stellungnahmen sind mir lieber als gar keine«",
-        "body": "Völkerrechtler zum Israel-Iran-Konflikt\n\nDer ehemalige Verfassungsrichter Andreas Paulus kritisiert die Begründungen für den israelischen Angriff auf Iran. Das Völkerrecht findet er wichtiger denn je. Trotz allem.\n\nEin Interview von Dietmar Hipp",
+        "title": "Völkerrechtler zum Israel-Iran-Konflikt",
+        "body": "Der ehemalige Verfassungsrichter Andreas Paulus kritisiert die Begründungen für den israelischen Angriff auf Iran. Das Völkerrecht findet er wichtiger denn je.",
         "url": "https://www.spiegel.de/ausland/iran-israel-konflikt-voelkerrechtler-andreas-paulus-kritisiert-begruendungen-fuer-israels-angriff-auf-iran-a-0c587320-2cbd-4e47-b8f2-f6c6ab87c038",
         "bias": 0,
-        "opinion": -1
+        "opinion": -1,
+        "justification": "Juristische Kritik, neutral präsentiert, keine emotionale oder politische Sprache."
       },
       {
         "source": "spiegel",
-        "title": "Masoud Pezeshkian\n\n\nIrans Präsident wirft Israel Anschlag auf sein Leben vor",
-        "body": "Masoud Pezeshkian\n\nMasoud Pezeshkian beschuldigt Israel, einen Mordanschlag auf ihn verübt zu haben. In einem Interview mit dem US-Moderator Tucker Carlson rief der iranische Präsident die USA zudem auf, sich nicht in Netanyahus Krieg ziehen zu lassen.",
+        "title": "Irans Präsident wirft Israel Anschlag auf sein Leben vor",
+        "body": "Masoud Pezeshkian beschuldigt Israel, einen Mordanschlag auf ihn verübt zu haben. In einem Interview mit Tucker Carlson ruft er die USA zur Zurückhaltung auf.",
         "url": "https://www.spiegel.de/ausland/iran-praesident-masoud-pezeshkian-wirft-israel-anschlag-auf-sein-leben-vor-a-73db2128-3618-4b2c-b553-24001bb6733d",
         "bias": 0,
-        "opinion": -2
+        "opinion": -2,
+        "justification": "Berichtet über schwerwiegende Anschuldigung ohne eigene Wertung oder Rahmung."
       },
       {
         "source": "spiegel",
-        "title": "Wissenschaftlicher Dienst des Bundestags\n\n\nVölkerrechtler zweifeln Gründe für Israels Angriff auf Iran an",
-        "body": "Wissenschaftlicher Dienst des Bundestags\n\nWar der israelische Angriff auf Iran Selbstverteidigung oder eine Aushöhlung des Völkerrechts? Ein Linkenpolitiker wollte das genau wissen. Wissenschaftler des Bundestags gaben ihm eine relativ eindeutige Antwort.",
+        "title": "Völkerrechtler zweifeln Gründe für Israels Angriff auf Iran an",
+        "body": "War der israelische Angriff auf Iran Selbstverteidigung oder eine Aushöhlung des Völkerrechts? Wissenschaftler des Bundestags äußern rechtliche Zweifel.",
         "url": "https://www.spiegel.de/ausland/israel-iran-konflikt-voelkerrechtler-zweifeln-gruende-fuer-israels-angriff-auf-iran-an-a-d50753d5-f5b3-4aea-9cb7-40f7f971c345",
         "bias": 0,
-        "opinion": -2
+        "opinion": -2,
+        "justification": "Analytisch-juristischer Stil, keine emotionale oder politische Aufladung."
       },
       {
         "source": "spiegel",
-        "title": "Ajatollah Ali Khamenei\n\n\nIrans Oberster Führer tritt erstmals seit Kriegsbeginn öffentlich auf",
-        "body": "Ajatollah Ali Khamenei\n\nSeit dem Zwölftagekrieg mit Israel hatte sich Ajatollah Ali Khamenei nur mit einer aufgezeichneten Rede ans iranische Volk gewandt. Jetzt nahm er an einer Trauerfeier im Rahmen des Aschura-Fests teil.",
+        "title": "Irans Oberster Führer tritt erstmals seit Kriegsbeginn öffentlich auf",
+        "body": "Ajatollah Ali Khamenei zeigt sich erstmals seit Kriegsbeginn öffentlich. Anlass ist eine Trauerfeier zum Aschura-Fest. Eine politische Einordnung fehlt.",
         "url": "https://www.spiegel.de/ausland/iran-ajatollah-ali-khamenei-tritt-erstmals-seit-kriegsbeginn-mit-israel-oeffentlich-auf-a-a3667c88-88fc-4185-abf8-38b355d135ee",
         "bias": 0,
-        "opinion": -2
+        "opinion": -2,
+        "justification": "Nüchterner Bericht ohne Bewertung oder Einordnung der Symbolik."
       },
       {
         "source": "spiegel",
-        "title": "Mentale Gesundheit\n\n\n\n\n\n\nKrisen und Kriege machen Ihnen Angst? Dieser Psychologe weiß Rat",
-        "body": "Mentale Gesundheit\n\nAngst ist ansteckend: Der Psychologe Jürgen Margraf erklärt, wie schlechte Nachrichten auf uns Menschen wirken, was wir dagegen tun können – und ob Männer oder Frauen furchtsamer sind.\n\nEin SPIEGEL-Gespräch von Maik Großekathöfer",
+        "title": "Krisen und Kriege machen Ihnen Angst? Dieser Psychologe weiß Rat",
+        "body": "Der Psychologe Jürgen Margraf erklärt, wie schlechte Nachrichten wirken, was Menschen belastet und wie man damit umgehen kann. Es geht um mentale Resilienz.",
         "url": "https://www.spiegel.de/wissenschaft/juergen-margraf-ueber-die-zukunftsangst-der-deutschen-die-dosis-an-schlechten-nachrichten-macht-das-gift-a-73728912-e507-4070-bcc1-8cface15ff9f",
         "bias": 0,
-        "opinion": 0
+        "opinion": 0,
+        "justification": "Psychologische Einschätzungen ohne politische Färbung oder Stellungnahme."
       },
       {
         "source": "spiegel",
-        "title": "SPIEGEL Shortcut\n\n\nDie ungebrochene Macht der Mullahs",
-        "body": "SPIEGEL Shortcut\n\nTrotz der Angriffe von Israel und den USA wirkt das iranische Regime gefestigt. SPIEGEL-Reporterin Susanne Koelbl erklärt, wie die Mullahs den Widerstand unterdrücken.\n\nModeriert von Maximilian Sepp",
-        "url": "https://www.spiegel.de/ausland/iran-wie-sich-das-regime-von-ali-khamenei-trotz-angriffen-von-israel-und-usa-haelt-podcast-a-578df558-b833-434f-afd0-00196e78d0e3",
-        "bias": 0,
-        "opinion": -2
-      },
-      {
-        "source": "spiegel",
-        "title": "SPIEGEL Shortcut zum iranischen Regime\n\n\nDie ungebrochene Macht der Mullahs",
-        "body": "SPIEGEL Shortcut zum iranischen Regime\n\nTrotz der Angriffe von Israel und den USA wirkt das iranische Regime gefestigt. SPIEGEL-Reporterin Susanne Koelbl erklärt, wie die Mullahs den Widerstand unterdrücken.\n\nModeriert von Maximilian Sepp",
+        "title": "Die ungebrochene Macht der Mullahs",
+        "body": "Trotz Angriffen bleibt Irans Regime stabil. SPIEGEL-Reporterin Susanne Koelbl beschreibt die innere Kontrolle und das Festhalten an der Macht.",
         "url": "https://www.spiegel.de/ausland/iran-wie-sich-das-regime-von-ali-khamenei-trotz-angriffen-von-israel-und-usa-haelt-a-8af32ded-c689-4e72-9775-f889529fde57",
         "bias": 0,
-        "opinion": -2
+        "opinion": -2,
+        "justification": "Bericht über politische Lage mit analytischem Fokus, ohne Kommentierung."
       },
       {
         "source": "spiegel",
-        "title": "Aussetzung der Zusammenarbeit\n\n\nAtominspektoren der IAEA verlassen Iran",
-        "body": "Aussetzung der Zusammenarbeit\n\nDie Kontrolle des iranischen Atomprogramms wird künftig noch schwieriger: Mitarbeiter der Internationalen Atomenergiebehörde sind aus dem Land ausgereist. Teheran hatte deren Chef Grossi zuvor als israelischen Spion diffamiert.",
+        "title": "Atominspektoren der IAEA verlassen Iran",
+        "body": "Die Kontrolle des Atomprogramms wird schwieriger: Die IAEA zieht Inspektoren ab, nachdem deren Chef als Spion bezeichnet wurde.",
         "url": "https://www.spiegel.de/ausland/iran-atominspektoren-der-iaea-verlassen-das-land-a-074e7a3a-28dd-4987-a00b-6eebf5279c16",
         "bias": 0,
-        "opinion": -2
+        "opinion": -2,
+        "justification": "Faktenbasierter Bericht über diplomatische Konsequenz, ohne Wertung."
       },
       {
         "source": "spiegel",
-        "title": "Krise in Nahost\n\n\nIran meldet 71 Tote nach israelischem Angriff auf Evin-Gefängnis",
-        "body": "Krise in Nahost\n\nDutzende Menschen sollen laut iranischen Angaben bei dem Angriff auf die Haftanstalt Evin getötet worden sein. Dort sind auch Aktivisten und Europäer inhaftiert. Menschenrechtler kritisieren das Vorgehen Israels scharf.",
+        "title": "Iran meldet 71 Tote nach israelischem Angriff auf Evin-Gefängnis",
+        "body": "Laut iranischen Angaben kamen viele Menschen ums Leben, darunter auch Aktivisten. Menschenrechtler üben Kritik an Israels Vorgehen.",
         "url": "https://www.spiegel.de/ausland/iran-meldet-71-tote-nach-israels-angriff-auf-evin-gefaengnis-a-d3ffb8f5-202b-483f-826b-ba192ef37eef",
         "bias": -1,
-        "opinion": -1
+        "opinion": -1,
+        "justification": "Kritik an Israel wird zitiert, aber ohne redaktionelle Bewertung eingebettet."
       },
       {
         "source": "taz",
-        "title": "Utopie eines Israel-Palästina\n\n\nEine Vision in dunkler Zeit",
-        "body": "Der Kulturzionist Martin Buber wird neu gelesen. Seine Utopie eines binationalen Israel-Palästina eröffnet Perspektiven, die es dringend braucht.",
+        "title": "Utopie eines Israel-Palästina",
+        "body": "Martin Buber wird neu gelesen. Seine Utopie eines binationalen Staats wird als Denkmodell für den Frieden vorgestellt – inmitten der realen Gewalt.",
         "url": "https://taz.de/Utopie-eines-Israel-Palaestina/!6096028/",
         "bias": -2,
-        "opinion": "+2"
+        "opinion": 2,
+        "justification": "Philosophisch-utopischer Text mit linker, friedensbewegter Grundhaltung."
       },
       {
         "source": "taz",
@@ -254,7 +276,8 @@
         "body": "Wenn antiisraelische Ressentiments zu hegen einem Rausch gleicht, dann ist BDS die Einstiegsdroge. Am Mittwoch wird die Bewegung 20 Jahre alt.",
         "url": "https://taz.de/-BDS-Bewegung-wird-20/!6095994/",
         "bias": -1,
-        "opinion": "+3"
+        "opinion": "+3",
+        "justification": "Kritik an BDS mit polemischer Sprache, klare politische Positionierung gegen Antisemitismus."
       },
       {
         "source": "taz",
@@ -262,7 +285,8 @@
         "body": "Der Deal für eine Waffenruhe in Gaza soll noch in dieser Woche kommen. Vieles scheint bereits ausgehandelt. Woran er noch scheitern kann.",
         "url": "https://taz.de/Verhandlungen-fuer-Waffenruhe/!6096044/",
         "bias": 0,
-        "opinion": 0
+        "opinion": 0,
+        "justification": "Faktenbasierte Analyse der Verhandlungslage, neutral und ohne politische Wertung."
       },
       {
         "source": "taz",
@@ -270,7 +294,8 @@
         "body": "Jedes Gerücht über eine bevorstehende Waffenruhe löst in den Straßen von Gaza Jubel und Hoffnung aus. Genauso schnell kommt die Ernüchterung.",
         "url": "https://taz.de/Gaza-Tagebuch/!6096043/",
         "bias": 0,
-        "opinion": "+2"
+        "opinion": "+2",
+        "justification": "Emotionale Schilderung der Zivilbevölkerung, empathisch, aber ohne politische Einordnung."
       },
       {
         "source": "taz",
@@ -278,7 +303,8 @@
         "body": "In Washington pinselt Israels Premier Trump kräftig den Bauch. In zwei Fragen ist er auf ihn angewiesen, um seine Kriegsziele endgültig umzusetzen.",
         "url": "https://taz.de/Friedensnobelpreis-fuer-Trump-/!6095949/",
         "bias": -1,
-        "opinion": "+3"
+        "opinion": "+3",
+        "justification": "Kritischer Kommentar zu Trumps Rolle im Nahost-Konflikt, klare politische Positionierung."
       },
       {
         "source": "taz",
@@ -286,7 +312,8 @@
         "body": "Erneut greift die Miliz Frachtschiffe an. Israel bombt zurück – und trifft die 2023 von den Huthis gekaperte und zur Radarplattform umgebaute „Galaxy Leader“.",
         "url": "/Huthi-Angriffe-vor-Jemens-Kueste/!6100013/",
         "bias": 0,
-        "opinion": -1
+        "opinion": -1,
+        "justification": "Bericht über militärische Auseinandersetzungen bleibt neutral, ohne politische Wertung."
       },
       {
         "source": "taz",
@@ -294,7 +321,8 @@
         "body": "Israels Ministerpräsident preist den US-Präsidenten. Beide kündigen eine Waffenruhe in Gaza an – und erneuern Pläne zur Vertreibung der Palästinenser.",
         "url": "https://taz.de/-Nachrichten-im-Nahost-Krieg-/!6100009/",
         "bias": -1,
-        "opinion": "+1"
+        "opinion": "+1",
+        "justification": "Kritischer Kommentar zu Trumps Rolle, aber auch Anerkennung für diplomatische Bemühungen."
       },
       {
         "source": "taz",
@@ -302,7 +330,8 @@
         "body": "Kurz vor dem Treffen mit Israels Ministerpräsident Netanjahu in Washington hofft US-Präsident Trump auf eine Einigung mit der Hamas. Innenpolitisch brodelt es in Israel.",
         "url": "https://taz.de/-Krieg-in-Nahost-/!6098977/",
         "bias": 0,
-        "opinion": 0
+        "opinion": 0,
+        "justification": "Bericht über diplomatische Bemühungen bleibt neutral, ohne politische Wertung."
       },
       {
         "source": "taz",
@@ -310,7 +339,8 @@
         "body": "Israel schickt eine Delegation zu Gesprächen über eine Gaza-Waffenruhe nach Katar. Die Einsätze gegen die Hamas gehen weiter, wohl mit neuen Opfern.​",
         "url": "https://taz.de/-Nachrichten-im-Nahost-Krieg-/!6098519/",
         "bias": 0,
-        "opinion": -1
+        "opinion": -1,
+        "justification": "Bericht über diplomatische Verhandlungen bleibt sachlich und ohne politische Einordnung."
       },
       {
         "source": "taz",
@@ -318,7 +348,8 @@
         "body": "Eine kleine Straße in Dortmund gerät auf einmal in den Brennpunkt der Weltpolitik und verursacht einen offenen Aufruhr in Nahost.",
         "url": "https://taz.de/Die-Wahrheit/!6095444/",
         "bias": -2,
-        "opinion": "+4"
+        "opinion": "+4",
+        "justification": "Satirischer Kommentar, der stark überzeichnet und polemisch ist, klare politische Positionierung."
       },
       {
         "source": "tichyseinblick",
@@ -326,7 +357,8 @@
         "body": "Der TE-Wecker erscheint montags bis freitags – und bietet Ihnen einen gut...",
         "url": "https://www.tichyseinblick.de/podcast/te-wecker-am-24-juni-2025/",
         "bias": 2,
-        "opinion": 2
+        "opinion": 2,
+        "justification": "Meinungsstarker Podcast mit klarer politischer Haltung, aber auch informativ."
       },
       {
         "source": "tichyseinblick",
@@ -334,7 +366,8 @@
         "body": "Wladimir Putin hat erstmals öffentlich ein Gespräch mit dem neuen...",
         "url": "https://www.tichyseinblick.de/kolumnen/aus-aller-welt/nahost-krieg-putin-gespraeche-mit-merz-selenskyj/",
         "bias": 2,
-        "opinion": 2
+        "opinion": 2,
+        "justification": "Starker Fokus auf geopolitische Entwicklungen, klare Meinung zu Putins Rolle."
       },
       {
         "source": "tichyseinblick",
@@ -342,7 +375,8 @@
         "body": "Nahost-Krieg-Diskussion bei Lanz: Die Fronten prallen aufeinander. Zwei...",
         "url": "https://www.tichyseinblick.de/feuilleton/medien/bei-lanz-schlagabtausch-der-nahost-experten/",
         "bias": 1,
-        "opinion": 3
+        "opinion": 3,
+        "justification": "Intensiver Schlagabtausch, klare Meinungsäußerungen, aber auch informative Aspekte."
       },
       {
         "source": "tichyseinblick",
@@ -350,7 +384,8 @@
         "body": "Viele Anleger fragen sich, wie sie reagieren sollen. Vietnamkrieg, Ölkrise,..",
         "url": "https://www.tichyseinblick.de/wirtschaft/geldanlage/boersenwoche-nahost-eskalation-belastet-kurse/",
         "bias": 2,
-        "opinion": 1
+        "opinion": 1,
+        "justification": "Wirtschaftlicher Fokus auf Krisenmanagement, klare Meinung zu Anlagestrategien."
       },
       {
         "source": "tichyseinblick",
@@ -358,7 +393,8 @@
         "body": "Änderung aus aktuellem Anlass: Nahost-Konflikt statt Rentenkollaps. Bärbel...",
         "url": "https://www.tichyseinblick.de/feuilleton/medien/krieg-in-nahost-miosga-iran-israel/",
         "bias": 0,
-        "opinion": 2
+        "opinion": 2,
+        "justification": "Kritik an Medienberichterstattung, aber auch humorvolle Betrachtung, klare Meinung."
       },
       {
         "source": "tichyseinblick",
